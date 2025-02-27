@@ -1,33 +1,44 @@
-.App {
-  text-align: center;
-}
-
 .spreadsheet-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.spreadsheet-table {
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.spreadsheet table {
+  margin: 20px auto;
   border-collapse: collapse;
-  width: 80%;
-  max-width: 600px;
 }
 
-.spreadsheet-table td {
-  border: 1px solid #ddd;
-  padding: 5px;
+.spreadsheet th,
+.spreadsheet td {
+  border: 1px solid black;
+  padding: 10px;
+  min-width: 80px;
   text-align: center;
 }
 
-.spreadsheet-cell {
+.spreadsheet input {
   width: 100%;
   border: none;
-  padding: 5px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
-.spreadsheet-cell:focus {
-  outline: 2px solid #007bff;
+.spreadsheet th {
+  background: #f4f4f4;
+  font-weight: bold;
 }

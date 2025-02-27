@@ -1,12 +1,12 @@
 import React from "react";
-import SpreadsheetApp from "./components/SpreadsheetApp.jsx";
+import Spreadsheet from "./Spreadsheet";
 
 
 function App() {
   return (
     <div>
-      <h1>Welcome to the Spreadsheet App</h1>
-      <SpreadsheetApp />
+      <h1>Google Sheets Clone</h1>
+      <Spreadsheet />
     </div>
   );
 }
